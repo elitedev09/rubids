@@ -1,0 +1,15 @@
+roobet.com is a brand name of TekHou5 Limited, Reg No 171902, having its registered address at 9 Barrack Road, Belize City, Belize, 
+licensed to conduct online gaming operations by the Government of Curacao under license 365/JAZ, sub-license GLH-OCCHKTW0710102018. 
+Hou5Game Limited, Reg No. HE 391142, having its registered address at 1, Avlonos, Maria House, Nicosia, 1075 Cyprus, is a wholly owned 
+subsidiary of TekHou5 Limited, which provides management, payment and support services related to the operation of the website. 18+ to play
+
+.roobet_com_is_a_brand_name_of_TekHou5_Limited__ {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb(164, 164, 164);
+  line-height: 1.222;
+  position: absolute;
+  left: 408px;
+  top: 1471.821px;
+  z-index: 5;
+}

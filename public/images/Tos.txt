@@ -1,0 +1,12 @@
+ToS     Fairness     VIP     Club     AML     Responsible Gambling
+
+.ToS_____Fairness_____VIP_____Club_____AML_____R {
+  font-size: 24px;
+  font-family: "Arial";
+  color: rgb(164, 164, 164);
+  line-height: 0.75;
+  position: absolute;
+  left: 408px;
+  top: 1416.404px;
+  z-index: 6;
+}

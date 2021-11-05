@@ -1,0 +1,40 @@
+.All_____High_Wins_____Lucky_Wins {
+  font-size: 24px;
+  font-family: "Arial";
+  color: rgb(254, 254, 254);
+  font-weight: bold;
+  line-height: 0.75;
+  position: absolute;
+  left: 419px;
+  top: 759.41px;
+  z-index: 17;
+}
+
+666464
+
+.GAME {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(60, 59, 59);
+  font-weight: bold;
+  line-height: 1.286;
+  text-align: left;
+  position: absolute;
+  left: 427px;
+  top: 825.998px;
+  z-index: 18;
+}
+
+
+.Aztec_Magic_Deluxe {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb(164, 164, 164);
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  left: 427.114px;
+  top: 884.819px;
+  z-index: 24;
+}
+

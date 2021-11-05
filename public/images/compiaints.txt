@@ -1,0 +1,12 @@
+complaints@gaming-curacao.com
+
+.complaints_gaming_curacao_com {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb(164, 164, 164);
+  line-height: 1;
+  position: absolute;
+  left: 585px;
+  top: 1601.819px;
+  z-index: 9;
+}

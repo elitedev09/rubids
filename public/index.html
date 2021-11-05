@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.png">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.min.css">
+
+    <!-- Google fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
+
+    <!-- Template's stylesheets -->
+    <link rel="stylesheet" href="js/megamenu/stylesheets/screen.css">
+    <link rel="stylesheet" href="js/megamenu/stylesheets/onepage.css">
+    <link rel="stylesheet" href="css/theme-default.css" type="text/css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="fonts/Simple-Line-Icons-Webfont/simple-line-icons.css" media="screen" />
+    <link rel="stylesheet" href="css/corporate.css" type="text/css">
+    <link rel="stylesheet" href="https://ianlunn.github.io/Hover/css/hover.css" type="text/css">
+
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div class="wrapper-boxed">
+    <div class="site-wrapper">
+      <div id="app"></div>
+    </div>
+    </div>
+    <!-- built files will be auto injected -->
+
+    <!-- Scripts -->
+    <script src="js/jquery/jquery.js"></script> 
+    <script src="js/bootstrap/bootstrap.min.js"></script> 
+    <script src="js/megamenu/js/main.js"></script> 
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+            }
+            // Get the element with id="defaultOpen" and click on it
+    </script>
+
+  </body>
+</html>

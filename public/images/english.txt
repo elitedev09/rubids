@@ -1,0 +1,12 @@
+English
+
+.English {
+  font-size: 24px;
+  font-family: "Arial";
+  color: rgb(164, 164, 164);
+  line-height: 0.75;
+  position: absolute;
+  left: 1439px;
+  top: 1418.404px;
+  z-index: 8;
+}
